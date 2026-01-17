@@ -212,7 +212,7 @@ Examples:
   python3 scanner.py --targets urls.txt --lhost 139.59.11.66
   python3 scanner.py --targets urls.txt --lhost 139.59.11.66 --threads 50
 
-Author: Chirag Artani
+Author: EnayProject!
     ''')
 argparser.add_argument('--targets', required=True, help='File with target URLs (one per line)')
 argparser.add_argument('--lhost', required=True, help='Your VPS/attacker IP address')
